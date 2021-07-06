@@ -101,6 +101,6 @@ app.get('/', (req, res) => {
 })
 
 
-app.listen(8001, () => {
+app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
